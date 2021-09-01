@@ -1,0 +1,25 @@
+.container{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.container .mat-drawer{
+    min-width: 200px; 
+    background: rgb(21, 50, 95);
+
+}
+
+.container .mat-drawer .mat-button{
+    display: block;
+    width:100%;
+    text-align: left;
+    color: white;
+  
+}
+
+.spacer{
+    flex: 1 1 auto;
+}
